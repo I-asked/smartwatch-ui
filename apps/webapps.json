@@ -1,0 +1,20 @@
+[
+  {
+    "name": "home",
+    "manifest_url": "http://home.localhost:8081/manifest.webmanifest",
+    "manifest_hash": "",
+    "package_hash": ""
+  },
+  {
+    "name": "system",
+    "manifest_url": "http://system.localhost:8081/manifest.webmanifest",
+    "manifest_hash": "",
+    "package_hash": ""
+  },
+  {
+    "name": "shared",
+    "manifest_url": "http://shared.localhost:8081/manifest.webmanifest",
+    "manifest_hash": "",
+    "package_hash": ""
+  }
+]
