@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta charset="UTF-8">
+  <title>B2G</title>
+
+  <link rel="stylesheet" href="css/index.css" media="all">
+
+  <script type="text/javascript" src="js/startup.js"></script>
+
+  <script type="module" src="chrome://b2g/content/embedding/web-embedder.sys.mjs"></script>
+
+  <script type="module" src="js/index.js"></script>
+</head>
+<body>
+  <div id="system">
+    <div id="home">
+      <web-view mozpasspointerevents="true" transparent="true" src="http://home.localhost/index.html" style="height: inherit;"></web-view>
+    </div>
+    <!--
+    <div id="windows">
+      <window-manager id="wm"></window-manager>
+    </div>
+    -->
+  </div>
+</body>
+</html>

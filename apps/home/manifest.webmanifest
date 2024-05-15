@@ -1,0 +1,35 @@
+{
+  "lang": "en-US",
+  "name": "home",
+  "short_name": "",
+  "description": "",
+  "orientation": "natural",
+  "start_url": "/index.html",
+  "theme_color": "#a517ba",
+  "b2g_features": {
+    "version": "1.0",
+    "core": true,
+    "permissions": {
+      "power": {},
+      "battery": {},
+      "powersupply": {},
+      "input": {},
+      "ime-connect": {},
+      "worker-activity": {},
+      "system-time": {
+        "access": "readwrite"
+      },
+      "wifi-manage": {},
+      "volumemanager": {},
+      "web-view": {},
+      "settings": {
+        "access": "readwrite"
+      },
+      "device-storage:sdcard": {
+        "access": "readwrite"
+      },
+      "audio-channel-content": {},
+      "webapps-manage": {}
+    }
+  }
+}

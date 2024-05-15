@@ -1,0 +1,23 @@
+@import url("http://shared.localhost/css/FiraGO.css");
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-size: 16px;
+  font-family: FiraGO;
+  background-color: white;
+}
+
+#placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 32px;
+  font-weight: bold;
+}
