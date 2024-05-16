@@ -8,7 +8,9 @@ html, body {
   overflow: hidden;
   font-size: 16px;
   font-family: FiraGO;
-  background-color: white;
+  background-color: black;
+  background-image: url('/img/wp.jpg');
+  background-size: cover;
 }
 
 #placeholder {
@@ -18,6 +20,10 @@ html, body {
   justify-content: center;
   align-items: center;
 
-  font-size: 32px;
+  color: transparent;
+  text-shadow: #334 0 0 15px;
+  -webkit-text-stroke: 2px white;
+  letter-spacing: 2px;
+  font-size: 30px;
   font-weight: bold;
 }
